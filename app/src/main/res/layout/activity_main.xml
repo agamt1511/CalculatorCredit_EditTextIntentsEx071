@@ -32,7 +32,6 @@
             android:background="#C3BCBC"
             android:ems="10"
             android:inputType="numberSigned|numberDecimal"
-            android:onClick="question"
             android:shadowColor="#5E35B1"
             android:textColor="#B50E0E"
             android:textColorHint="#000000" />
@@ -163,7 +162,7 @@
                 android:layout_weight="35"
                 android:onClick="gocredits"
                 android:text="Credits"
-                android:textSize="18sp"
+                android:textSize="14sp"
                 app:backgroundTint="#004D40" />
 
             <Space

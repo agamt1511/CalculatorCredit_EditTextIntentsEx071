@@ -31,4 +31,9 @@ public class SecondActivity2 extends AppCompatActivity {
         float lastResult = gi.getIntExtra("lastResult",0);
         tv2.setText("The last result obtained in the calculator is: " + lastResult);
     }
+
+    public void back(View view) {
+        Intent ri = new Intent(this,MainActivity.class);
+        startActivity(ri);
+    }
 }

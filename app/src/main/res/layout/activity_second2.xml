@@ -64,6 +64,7 @@
             android:layout_height="0dp"
             android:layout_weight="10"
             android:background="#FFFFFF"
+            android:onClick="back"
             android:text="click here to return to the calculator"
             app:backgroundTint="#FF8A80" />
 
